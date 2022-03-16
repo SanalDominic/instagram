@@ -1,0 +1,361 @@
+body {
+    background-color: #fafafa;
+    margin: unset;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+svg, button {
+    cursor: pointer;
+}
+.svg.hover{
+    fill: #0095f6;
+}
+.navsec {
+    overflow: hidden !important;
+    position: fixed;
+    width: 100%;
+    width: -webkit-fill-available;
+    top: 0;
+    z-index: 10000;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+}
+
+.navdiv {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.nav {
+    display: flex;
+
+    padding: .5rem;
+
+
+}
+
+.nav .logo {
+    size: 2rem;
+    padding-top: inherit;
+
+
+}
+
+.nav .logo img:hover {
+    cursor: pointer;
+}
+
+.nav .search {
+    margin: auto;
+    margin-right: unset;
+}
+
+.nav .search svg {
+    position: absolute;
+    padding: .6rem;
+    padding-left: 1rem;
+    font-size: 1.3rem;
+
+}
+
+.nav .search input {
+    border-radius: 0.4rem;
+    background-color: #efefef;
+    border: none;
+    width: 15rem;
+    height: 2.2rem;
+    padding-left: 2.5rem;
+    -webkit-appearance: none;
+}
+
+.nav input:focus {
+    outline: none;
+
+}
+
+
+.nav .icon ul {
+    display: flex;
+    padding-top: 0.5rem;
+    list-style: none;
+    margin: initial;
+}
+
+.nav .icon ul>li {
+    padding-left: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.nav .icon ul>li:hover {
+    cursor: pointer;
+}
+
+.nav .icon .loginimg img {
+    border-radius: 50%;
+}
+
+/* End of nav */
+.left {
+    width: 60%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    float: left;
+}
+
+.main {
+    display: flex;
+    margin: unset;
+    margin: 10rem;
+    margin-top: 1rem;
+
+}
+
+.reels {
+    background-color: #fff;
+    border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+    padding: 0.5rem;
+    padding-left: 1rem;
+
+}
+
+.reels .pos {
+    position: relative;
+}
+
+.reels .pos svg {
+    height: 1.5rem;
+    position: absolute;
+    top: 1.5rem;
+    right: 0.2rem;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.reels .reelsh {
+    list-style: none;
+    display: flex;
+    padding: unset;
+    margin: unset;
+}
+
+.reels .reelsh>li {
+    padding: .2rem;
+}
+
+.reels .reelsh>li div {
+    cursor: pointer;
+}
+
+.reels .reelsh>li img {
+    height: 3.5rem;
+    padding: .1rem;
+    border-radius: 50%;
+    border: .15rem solid red;
+}
+
+.reels .userimg img {
+    height: 1rem;
+    padding: .1rem;
+    border-radius: 50%;
+}
+
+.reelsh li #p {
+    max-width: 4rem;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-overflow: "...";
+    text-align: center;
+}
+
+
+/* end of reels */
+.feeds {
+    margin-top: 1rem;
+
+    background-color: #fff;
+    border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+}
+
+.feedhead {
+
+    padding: .4rem .6rem;
+    display: flex;
+    border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+    align-items: center;
+}
+
+.feedhead .userimg img {
+    height: 2.5rem;
+    border-radius: 50%;
+    border-color: .3rem solid #fafafa;
+}
+
+.feedhead .spat {
+    display: flex;
+    margin: auto;
+    margin-left: 0.5rem;
+    font-size: .8rem;
+}
+
+
+.feedbody img {
+    width: -webkit-fill-available;
+}
+
+.feedbody .comm {
+    display: flex;
+    padding: .5rem;
+}
+
+.feedbody .lefticon {
+    list-style: none;
+    display: inline-flex;
+    margin: unset;
+    padding: unset;
+}
+
+.feedbody .lefticon>li {
+    padding-left: 1rem;
+}
+
+.feedbody .righticon {
+    margin: auto;
+    margin-right: unset;
+}
+
+.feedb2 {
+
+    padding: 0.5rem 1.5rem;
+}
+
+.feedb2 img {
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.feedb2 span {
+    display: block;
+    margin: unset;
+    padding-bottom: .5rem;
+
+}
+
+.feedfoot {
+    display: flex;
+    padding: .5rem 2rem;
+    padding-right: 1rem;
+    border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+}
+
+
+.feedfoot textarea {
+    width: inherit;
+    outline: none;
+    border: none;
+    padding: 0.2rem 1rem;
+}
+
+.feedfoot button {
+    background-color: unset;
+    border: unset;
+    color: #0095f6;
+    padding-top: .5rem;
+}
+
+/* end of feeds */
+.sugge {
+    position: fixed;
+    float: right;
+    right: 0;
+    min-width: 40%;
+    margin-left: 2rem;
+}
+
+.rightheader {
+    display: flex;
+    height: auto;
+    padding: 1rem 0rem;
+    align-items: center;
+}
+
+.rightheader div {
+    /* margin: auto;
+    margin-left: unset; */
+    padding-right: 1rem;
+}
+
+.rightheader img {
+    height: 4rem;
+    border-radius: 50%;
+}
+
+.rightheader a {
+    color: #0095f6;
+}
+
+.rightheader #name {
+    color: black;
+}
+
+.rightbhead {
+    display: flex;
+}
+
+.sugge table {
+    margin: auto;
+    margin-left: unset;
+    max-width: 10 rem;
+}
+
+.sugge table tr {
+    display: flex;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.sugge table td img {
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.sugge tr td {
+    width: 10rem;
+}
+
+.sugge #img {
+    width: fit-content;
+    padding-right: 1rem;
+}
+
+#followers {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-overflow: "...";
+}
+
+#nfollow {
+    opacity: .5;
+}
+
+table tr td#last {
+    margin: auto;
+    padding-left: 5rem;
+}
+
+.sugge table #last {
+    color: #0095f6;
+
+}
